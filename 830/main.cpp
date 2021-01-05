@@ -5,7 +5,7 @@ using namespace std;
 
 vector<vector<int>> largeGroupPositions(string s) {
     vector<vector<int>> ans;
-    int start = 0, end = 0;
+    int start = 0;
     while (start < s.size()) {
         vector<int> tmp(2);
         tmp[0] = start;
