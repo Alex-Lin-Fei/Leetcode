@@ -17,9 +17,6 @@ vector<vector<int>> largeGroupPositions(string s) {
         start++;
     }
 
-    for (auto &item: ans)
-        cout << item[0] << ' ' << item[1] << endl;
-
     return ans;
 }
 
