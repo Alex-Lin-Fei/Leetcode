@@ -22,7 +22,7 @@ vector<vector<int>> largeGroupPositions(string s) {
 }
 
 int main() {
-    cout <<"no off";
+    int x=;
     largeGroupPositions("abbxxxxxzzy");
 
     return 0;
