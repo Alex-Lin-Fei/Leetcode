@@ -8,6 +8,12 @@ vector<vector<int>> largeGroupPositions(string s) {
     int start = 0, end = 0;
     while (start < s.size()) {
 //       二分法找到end
+int l = start, r = s.size()-1;
+        while (l<r) {
+
+        }
+
+
 
         ans.push_back({start, end});
         start = end + 1;
