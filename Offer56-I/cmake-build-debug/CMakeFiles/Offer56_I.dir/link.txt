@@ -1,0 +1,3 @@
+"D:\JetBrains\CLion\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Offer56_I.dir/objects.a
+D:\MinGW\bin\ar.exe cr CMakeFiles\Offer56_I.dir/objects.a @CMakeFiles\Offer56_I.dir\objects1.rsp
+D:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\Offer56_I.dir/objects.a -Wl,--no-whole-archive  -o Offer56_I.exe -Wl,--out-implib,libOffer56_I.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Offer56_I.dir\linklibs.rsp
