@@ -24,6 +24,6 @@ vector<vector<int>> largeGroupPositions(string s) {
 int main() {
     int a =
     largeGroupPositions("abbxxxxxzzy");
-
+cout << 2;
     return 0;
 }
