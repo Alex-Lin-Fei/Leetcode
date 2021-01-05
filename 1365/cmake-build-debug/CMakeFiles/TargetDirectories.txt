@@ -1,0 +1,3 @@
+D:/eBook/1365/cmake-build-debug/CMakeFiles/1365.dir
+D:/eBook/1365/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/eBook/1365/cmake-build-debug/CMakeFiles/rebuild_cache.dir
