@@ -7,18 +7,14 @@ vector<vector<int>> largeGroupPositions(string s) {
     vector<vector<int>> ans;
     int start = 0, end = 0;
     while (start < s.size()) {
-//       二分法找到end
-        int l = start + 1, r = s.size() - 1;
-        while (l <= r) {
-            int m = (l + r) >> 1;
-            if (s[m] == s[start])
-                l = m + 1;
-            else
-                r = m - 1;
-        }
-        end = l - 1;
-        ans.push_back({start, end});
-        start = end + 1;
+        vector<int> tmp(2);
+        tmp[0] = start;
+        while (s[start + 1] == s[start])
+            start++;
+        tmp[1] = start;
+        if (tmp[1] - tmp[0] >= 2)
+            ans.push_back(tmp);
+        start++;
     }
 
     for (auto &item: ans)
@@ -29,6 +25,7 @@ vector<vector<int>> largeGroupPositions(string s) {
 
 int main() {
 
-    std::cout << "Hello, World!" << std::endl;
+    largeGroupPositions("abbxxxxxzzy");
+
     return 0;
 }
