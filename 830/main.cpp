@@ -22,7 +22,7 @@ vector<vector<int>> largeGroupPositions(string s) {
 }
 
 int main() {
-    cout <<"or simple";
+    cout <<"hard and simple";
     largeGroupPositions("abbxxxxxzzy");
 
     return 0;
