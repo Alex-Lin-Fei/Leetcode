@@ -5,7 +5,8 @@ using namespace std;
 
 vector<vector<int>> largeGroupPositions(string s) {
     vector<vector<int>> ans;
-    int start = 0, end = 0;
+    int start = 0;
+
     while (start < s.size()) {
         vector<int> tmp(2);
         tmp[0] = start;
@@ -17,14 +18,11 @@ vector<vector<int>> largeGroupPositions(string s) {
         start++;
     }
 
-    for (auto &item: ans)
-        cout << item[0] << ' ' << item[1] << endl;
-
     return ans;
 }
 
 int main() {
-
+    intdouble;
     largeGroupPositions("abbxxxxxzzy");
 
     return 0;
