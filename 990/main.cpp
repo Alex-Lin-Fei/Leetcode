@@ -2,66 +2,66 @@
 #include <vector>
 using namespace std;
 
-vector<int> ranks;
 vector<int> father;
+vector<int> height;
 
 void init() {
-    ranks.clear();
-    ranks.resize(26, 0);
-    father.clear();
     father.resize(26);
-    for (int i = 0; i < 26; i++)
+    height.resize(26, 0);
+    for (int i = 0; i < father.size(); i++)
         father[i] = i;
 }
 
-int findFather(int x) {
-    if (x != father[x]) {
-        father[x] = findFather(father[x]);
+int findFather(int a) {
+    while (a != father[a]) {
+        a = father[a];
     }
-    return father[x];
-}
-
-bool isSame(int a, int b) {
-    return findFather(a) == findFather(b);
+    return a;
 }
 
 void unite(int a, int b) {
     a = findFather(a);
     b = findFather(b);
 
-    if (ranks[a] < ranks[b])
+    if (height[a] < height[b])
         father[a] = b;
+
     else {
         father[b] = a;
-        if (ranks[a] == ranks[b])
-            ranks[a]++;
+        if (height[b] == height[a])
+            height[a]++;
     }
+}
+
+bool isSame(int a, int b) {
+    return findFather(a) == findFather(b);
 }
 
 bool equationsPossible(vector<string>& equations) {
     init();
 
-    for (auto& e: equations) {
-        if (e[1] == '=') {
-            int a = e[0] - 'a';
-            int b = e[3] - 'a';
+
+    for (auto &equation: equations)
+        if (equation[1] == '=') {
+            int a = equation[0] - 'a';
+            int b = equation[3] - 'a';
             if (!isSame(a, b))
                 unite(a, b);
         }
-    }
 
-    for (auto& e: equations) {
-        if (e[1] == '!') {
-            int a = e[0] - 'a';
-            int b = e[3] - 'a';
+    for (auto &equation: equations)
+        if (equation[1] == '!') {
+            int a = equation[0] - 'a';
+            int b = equation[3] - 'a';
             if (isSame(a, b))
                 return false;
         }
-    }
     return true;
 }
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    vector<string> equations{"c==c","b==d","x!=z"};
+    cout <<equationsPossible(equations)<<endl;
+
     return 0;
 }
