@@ -40,7 +40,6 @@ public:
                 height[rootY]++;
         }
     }
-
 };
 
 vector<int> findRedundantConnection(vector<vector<int>>& edges) {
