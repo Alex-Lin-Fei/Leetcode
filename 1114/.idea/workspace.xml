@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9ad8721-5e46-4cb7-8368-1ec029b89ca4" name="Default Changelist" comment="delete Foo">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="c9ad8721-5e46-4cb7-8368-1ec029b89ca4" name="Default Changelist" comment="use monitor" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,6 +82,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../JavaCode/Pre/MultiThread" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -122,7 +125,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610776976051</updated>
-      <workItem from="1610776977364" duration="1336000" />
+      <workItem from="1610776977364" duration="1999000" />
     </task>
     <task id="LOCAL-00001" summary="add Foo">
       <created>1610777105376</created>
@@ -138,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610777160849</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="use monitor">
+      <created>1610778364538</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610778364538</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,7 +168,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add Foo" />
     <MESSAGE value="delete Foo" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete Foo" />
+    <MESSAGE value="use monitor" />
+    <option name="LAST_COMMIT_MESSAGE" value="use monitor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
