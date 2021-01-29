@@ -63,16 +63,16 @@ RM = "D:\JetBrains\CLion\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\algorithm\leetcode\547
+CMAKE_SOURCE_DIR = D:\algorithm\leetcode\1036
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\algorithm\leetcode\547\cmake-build-debug
+CMAKE_BINARY_DIR = D:\algorithm\leetcode\1036\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/547.dir/all
+all: CMakeFiles/1036.dir/all
 
 .PHONY : all
 
@@ -82,36 +82,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/547.dir/clean
+clean: CMakeFiles/1036.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/547.dir
+# Target rules for target CMakeFiles/1036.dir
 
 # All Build rule for target.
-CMakeFiles/547.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\547.dir\build.make CMakeFiles/547.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\547.dir\build.make CMakeFiles/547.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\algorithm\leetcode\547\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target 547"
-.PHONY : CMakeFiles/547.dir/all
+CMakeFiles/1036.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1036.dir\build.make CMakeFiles/1036.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1036.dir\build.make CMakeFiles/1036.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\algorithm\leetcode\1036\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target 1036"
+.PHONY : CMakeFiles/1036.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/547.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\algorithm\leetcode\547\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/547.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\algorithm\leetcode\547\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/547.dir/rule
+CMakeFiles/1036.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\algorithm\leetcode\1036\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/1036.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\algorithm\leetcode\1036\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/1036.dir/rule
 
 # Convenience name for target.
-547: CMakeFiles/547.dir/rule
+1036: CMakeFiles/1036.dir/rule
 
-.PHONY : 547
+.PHONY : 1036
 
 # clean rule for target.
-CMakeFiles/547.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\547.dir\build.make CMakeFiles/547.dir/clean
-.PHONY : CMakeFiles/547.dir/clean
+CMakeFiles/1036.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1036.dir\build.make CMakeFiles/1036.dir/clean
+.PHONY : CMakeFiles/1036.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

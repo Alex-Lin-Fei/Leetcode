@@ -1,8 +1,8 @@
-# Install script for directory: D:/algorithm/leetcode/547
+# Install script for directory: D:/algorithm/leetcode/1036
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/547")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/1036")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/algorithm/leetcode/547/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/algorithm/leetcode/1036/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
