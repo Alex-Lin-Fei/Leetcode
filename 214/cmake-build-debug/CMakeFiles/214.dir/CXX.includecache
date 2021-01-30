@@ -6,13 +6,11 @@
 
 #IncludeRegexTransform: 
 
-D:/C++/leetcode/32/main.cpp
+D:/algorithm/leetcode/214/main.cpp
 iostream
--
-vector
 -
 algorithm
 -
-queue
+vector
 -
 
