@@ -21,6 +21,7 @@ vector<int> fairCandySwap(vector<int>& A, vector<int>& B) {
 }
 
 int main() {
+    int a = 1, b = 3;
     vector<int> A{1,2,5}, B{2,4};
     vector<int> ans = fairCandySwap(A,B);
     std::cout << ans[0] << ans[1] << std::endl;
