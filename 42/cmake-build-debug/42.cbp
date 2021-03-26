@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/C++/leetcode/42/cmake-build-debug"/>
+				<Option working_dir="D:/algorithm/leetcode/42/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/C++/leetcode/42/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/C++/leetcode/42/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/C++/leetcode/42/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/C++/leetcode/42/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/algorithm/leetcode/42/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/algorithm/leetcode/42/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/algorithm/leetcode/42/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/algorithm/leetcode/42/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="42">
-				<Option output="D:/C++/leetcode/42/cmake-build-debug/42.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/C++/leetcode/42/cmake-build-debug"/>
+				<Option output="D:/algorithm/leetcode/42/cmake-build-debug/42.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/algorithm/leetcode/42/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -33,15 +33,15 @@
 					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/C++/leetcode/42/cmake-build-debug/Makefile&quot;  VERBOSE=1 42"/>
-					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/C++/leetcode/42/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/C++/leetcode/42/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/C++/leetcode/42/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/algorithm/leetcode/42/cmake-build-debug/Makefile&quot;  VERBOSE=1 42"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/algorithm/leetcode/42/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/algorithm/leetcode/42/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/algorithm/leetcode/42/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="42/fast">
-				<Option output="D:/C++/leetcode/42/cmake-build-debug/42.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/C++/leetcode/42/cmake-build-debug"/>
+				<Option output="D:/algorithm/leetcode/42/cmake-build-debug/42.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/algorithm/leetcode/42/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -55,37 +55,37 @@
 					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/C++/leetcode/42/cmake-build-debug/Makefile&quot;  VERBOSE=1 42/fast"/>
-					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/C++/leetcode/42/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/C++/leetcode/42/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/C++/leetcode/42/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/algorithm/leetcode/42/cmake-build-debug/Makefile&quot;  VERBOSE=1 42/fast"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/algorithm/leetcode/42/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/algorithm/leetcode/42/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/algorithm/leetcode/42/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="D:/C++/leetcode/42/cmake-build-debug"/>
+				<Option working_dir="D:/algorithm/leetcode/42/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/C++/leetcode/42/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/C++/leetcode/42/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/C++/leetcode/42/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/C++/leetcode/42/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/algorithm/leetcode/42/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/algorithm/leetcode/42/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/algorithm/leetcode/42/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/algorithm/leetcode/42/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/C++/leetcode/42/cmake-build-debug"/>
+				<Option working_dir="D:/algorithm/leetcode/42/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/C++/leetcode/42/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/C++/leetcode/42/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/C++/leetcode/42/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/C++/leetcode/42/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/algorithm/leetcode/42/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/algorithm/leetcode/42/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/algorithm/leetcode/42/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/algorithm/leetcode/42/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/C++/leetcode/42/main.cpp">
+		<Unit filename="D:/algorithm/leetcode/42/main.cpp">
 			<Option target="42"/>
 		</Unit>
-		<Unit filename="D:/C++/leetcode/42/CMakeLists.txt">
+		<Unit filename="D:/algorithm/leetcode/42/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

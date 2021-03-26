@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <stack>
 using namespace std;
 
 //int maxSubArray(vector<int>& nums) {
@@ -14,30 +15,49 @@ using namespace std;
 //    }
 //    return tot;
 //}
+//
+//int maxSubArray(vector<int>& nums) {
+//    vector<int>dp(nums.size());
+//    dp[0] = nums[0];
+//    int maxI = dp[0];
+//    for (int i = 1; i < nums.size(); i++) {
+//        dp[i] = max(nums[i], nums[i] + dp[i - 1]);
+//        maxI = max(maxI, dp[i]);
+//    }
+//    return maxI;
+//}
 
-int maxSubArray(vector<int>& nums) {
-    vector<int>dp(nums.size());
-    dp[0] = nums[0];
-    int maxI = dp[0];
-    for (int i = 1; i < nums.size(); i++) {
-        dp[i] = max(nums[i], nums[i] + dp[i - 1]);
-        maxI = max(maxI, dp[i]);
+int trap(vector<int>& height) {
+    int bottom = 0;
+    int ans = 0;
+    stack<int> left;
+
+    for (int i = 0; i < height.size(); i++) {
+        if (i > 0 && height[i] > height[i-1]) {
+            while (!left.empty()) {
+                ans += (i - left.top() - 1) * (min(height[left.top()], height[i]) - bottom);
+                bottom = min(height[left.top()], height[i]);
+                if (height[left.top()] < height[i])
+                    left.pop();
+                else
+                    break;
+            }
+        }
+        if (i + 1 < height.size()) {
+            if (height[i] > height[i + 1])
+                left.push(i);
+            else if (height[i] < height[i + 1]) {
+                bottom = height[i];
+            }
+        }
     }
-    return maxI;
+
+    return ans;
 }
 
 int main() {
-    vector<int>nums;
-    nums.push_back(-2);
-//    nums.push_back(1);
-//    nums.push_back(-3);
-//    nums.push_back(4);
-    nums.push_back(-1);
-//    nums.push_back(2);
-//    nums.push_back(1);
-//    nums.push_back(-5);
-//    nums.push_back(4);
+    vector<int> height{4,2,0,3,2,5};
+    cout << trap(height);
 
-    std::cout << maxSubArray(nums)<< std::endl;
     return 0;
 }
