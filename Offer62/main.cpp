@@ -19,9 +19,6 @@ using namespace std;
 //    return arr[0];
 //}
 
-int f(int n, int m) {
-
-}
 
 int lastRemaining(int n, int m) {
     if (n == 0)
